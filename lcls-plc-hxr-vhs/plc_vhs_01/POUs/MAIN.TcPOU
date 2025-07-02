@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{d80e7488-e2f9-48bc-8b5c-5fd54b35405a}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM Main
+VAR
+    // Von Hamos
+    fb_com_rot : FB_MotionStage;
+    fb_cr1_move: FB_MotionStage;
+    fb_cr2_move: FB_MotionStage;
+    fb_cr3_move: FB_MotionStage;
+    f2b_cr4_move: FB_MotionStage;
+    fb_cr1_rot: FB_MotionStage;
+    fb_cr2_rot: FB_MotionStage;
+    fb_cr3_rot: FB_MotionStage;
+    fb_cr4_rot: FB_MotionStage;
+    fb_cr1_tilt: FB_MotionStage;
+    fb_cr2_tilt: FB_MotionStage;
+    fb_cr3_tilt: FB_MotionStage;
+    fb_cr4_tilt: FB_MotionStage;
+    fb_parker_x: FB_MotionStage;
+    fb_parker_y: FB_MotionStage;
+    // small von Hamos - 15 Axes
+
+    // Axis 1 - Common Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CR'}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
+                                 '}
+    M1: ST_MotionStage := (sName := 'HXR:VHS:MMS:CR');
+
+   // Axis 2 - CR1 Move
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM1'}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_03]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
+                                 '}
+    M2: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRM1');
+
+// Axis 3 - CR2 Move
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM2'}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
+                                 '}
+    M3: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRM2');
+
+// Axis 4 - CR3 Move
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM3'}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
+                                 '}
+    M4: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRM3');
+
+    // Axis 5 - CR4 Move
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM4'}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
+                                 '}
+    M5: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRM4');
+
+// Axis 6 - CR1 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR1 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_07]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
+                                 '}
+    M6: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRR1');
+
+// Axis 7 - CR2 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR2 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
+                                 '}
+    M7: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRR2');
+
+// Axis 8 - CR3 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR3 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
+                                 '}
+    M8: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRR3');
+
+// Axis 9 - CR4 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR4 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_10]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
+                                 '}
+    M9: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRR4');
+
+// Axis 10 - CRT1 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT1 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
+                                 '}
+    M10: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRT1');
+
+// Axis 11 - CRT2 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT2 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
+                                 '}
+    M11: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRT2');
+
+// Axis 12 - CRT3 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT3 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
+                                 '}
+    M12: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRT3');
+
+// Axis 13 - CRT4 Rotation
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT4 '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
+                                 '}
+    M13: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRT4');
+
+// Axis 14 - Parker X
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:PRX '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7062_00_15]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7062_00_15]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7062_00_15]^ENC Status compact^Counter value
+                                 '}
+    M14: ST_MotionStage := (sName := 'HXR:VHS:MMS:PRX');
+
+// Axis 15 - Parker Y
+    {attribute 'pytmc' := 'pv: HXR:VHS:MMS:PRY '}
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7062_00_16]^STM Status^Status^Digital input 1
+                              .bLimitBackwardEnable := TIIB[EL7062_00_16]^STM Status^Status^Digital input 2;
+                              .nRawEncoderUINT := TIIB[EL7062_00_16]^ENC Status compact^Counter value
+                                 '}
+    M15: ST_MotionStage := (sName := 'HXR:VHS:MMS:PRY');
+
+    bInit: BOOL := TRUE;
+
+
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bInit THEN
+    bInit := FALSE;
+
+    M1.bHardwareEnable := TRUE;
+    M1.bPowerSelf      := TRUE;
+    M1.fVelocity       := 0.1;
+    M1.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M1.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M1.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M1.fHomePosition   := 0;
+
+    M2.bHardwareEnable := TRUE;
+    M2.bPowerSelf      := TRUE;
+    M2.fVelocity       := 0.1;
+    M2.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M2.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M2.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M2.fHomePosition   := 0;
+
+    M3.bHardwareEnable := TRUE;
+    M3.bPowerSelf      := TRUE;
+    M3.fVelocity       := 0.1;
+    M3.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M3.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M3.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M3.fHomePosition   := 0;
+
+    M4.bHardwareEnable := TRUE;
+    M4.bPowerSelf      := TRUE;
+    M4.fVelocity       := 0.1;
+    M4.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M4.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M4.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M4.fHomePosition   := 0;
+
+    M5.bHardwareEnable := TRUE;
+    M5.bPowerSelf      := TRUE;
+    M5.fVelocity       := 0.1;
+    M5.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M5.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M5.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M5.fHomePosition   := 0;
+
+    M6.bHardwareEnable := TRUE;
+    M6.bPowerSelf      := TRUE;
+    M6.fVelocity       := 0.1;
+    M6.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M6.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M6.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M6.fHomePosition   := 0;
+
+    M7.bHardwareEnable := TRUE;
+    M7.bPowerSelf      := TRUE;
+    M7.fVelocity       := 0.1;
+    M7.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M7.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M7.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M7.fHomePosition   := 0;
+
+    M7.bHardwareEnable := TRUE;
+    M7.bPowerSelf      := TRUE;
+    M7.fVelocity       := 0.1;
+    M7.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M7.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M7.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M7.fHomePosition   := 0;
+
+    M8.bHardwareEnable := TRUE;
+    M8.bPowerSelf      := TRUE;
+    M8.fVelocity       := 0.1;
+    M8.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M8.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M8.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M8.fHomePosition   := 0;
+
+    M9.bHardwareEnable := TRUE;
+    M9.bPowerSelf      := TRUE;
+    M9.fVelocity       := 0.1;
+    M9.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M9.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M9.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M9.fHomePosition   := 0;
+
+    M10.bHardwareEnable := TRUE;
+    M10.bPowerSelf      := TRUE;
+    M10.fVelocity       := 0.1;
+    M10.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M10.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M10.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M10.fHomePosition   := 0;
+
+    M11.bHardwareEnable := TRUE;
+    M11.bPowerSelf      := TRUE;
+    M11.fVelocity       := 0.1;
+    M11.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M11.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M11.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M11.fHomePosition   := 0;
+
+    M12.bHardwareEnable := TRUE;
+    M12.bPowerSelf      := TRUE;
+    M12.fVelocity       := 0.1;
+    M12.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M12.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M12.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M12.fHomePosition   := 0;
+
+    M13.bHardwareEnable := TRUE;
+    M13.bPowerSelf      := TRUE;
+    M13.fVelocity       := 0.1;
+    M13.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M13.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M13.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M13.fHomePosition   := 0;
+
+    M14.bHardwareEnable := TRUE;
+    M14.bPowerSelf      := TRUE;
+    M14.fVelocity       := 0.1;
+    M14.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M14.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M14.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M14.fHomePosition   := 0;
+
+    M15.bHardwareEnable := TRUE;
+    M15.bPowerSelf      := TRUE;
+    M15.fVelocity       := 0.1;
+    M15.nEnableMode     := E_StageEnableMode.DURING_MOTION;
+    M15.nBrakeMode      := E_StageBrakeMode.NO_BRAKE;
+    M15.nHomingMode     := E_EpicsHomeCmd.LOW_LIMIT;
+    M15.fHomePosition   := 0;
+END_IF
+
+fb_com_rot(stMotionStage  := M1);
+fb_cr1_move(stMotionStage := M2);
+fb_cr2_move(stMotionStage := M3);
+fb_cr3_move(stMotionStage := M4);
+fb_cr4_move(stMotionStage := M5);
+fb_cr1_rot(stMotionStage := M6);
+fb_cr2_rot(stMotionStage := M7);
+fb_cr3_rot(stMotionStage := M8);
+fb_cr4_rot(stMotionStage := M9);
+fb_cr1_tilt(stMotionStage := M10);
+fb_cr2_tilt(stMotionStage := M11);
+fb_cr3_tilt(stMotionStage := M12);
+fb_cr4_tilt(stMotionStage := M13);
+fb_parker_x(stMotionStage := M14);
+fb_parker_y(stMotionStage := M15);]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
