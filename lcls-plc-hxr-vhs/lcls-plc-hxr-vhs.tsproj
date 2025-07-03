@@ -1579,22 +1579,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.05" RefSync="0.05" SlowManual="0.0125" FastManual="0.025" Maximum="0.25"/>
 						<TargetPosControl Range="0.01"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>16</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1752,21 +1742,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
 						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1924,21 +1905,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
 						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2096,21 +2068,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
 						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2268,21 +2231,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
 						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2440,21 +2394,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
 						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2612,21 +2557,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
 						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2784,21 +2720,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
 						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2956,21 +2883,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
 						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3128,21 +3046,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
 						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3300,21 +3209,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
 						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3472,21 +3372,12 @@ External Setpoint Generation:
 						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
 						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3644,20 +3535,11 @@ External Setpoint Generation:
 						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
 						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="19">
 						<EncPara MaxCount="#xffffffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3799,26 +3681,12 @@ External Setpoint Generation:
 						<Velo RefSearch="12" RefSync="12" SlowManual="3" FastManual="6" Maximum="60"/>
 						<TargetPosControl Range="0.2"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3976,25 +3844,11 @@ External Setpoint Generation:
 						<Velo RefSearch="12" RefSync="12" SlowManual="3" FastManual="6" Maximum="60"/>
 						<TargetPosControl Range="0.2"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
-						<ParameterChanged>242</ParameterChanged>
-						<ParameterChanged>257</ParameterChanged>
-						<ParameterChanged>7</ParameterChanged>
-						<ParameterChanged>39</ParameterChanged>
-						<ParameterChanged>258</ParameterChanged>
-						<ParameterChanged>241</ParameterChanged>
-						<ParameterChanged>259</ParameterChanged>
-						<ParameterChanged>6</ParameterChanged>
-						<ParameterChanged>9</ParameterChanged>
-						<ParameterChanged>8</ParameterChanged>
-						<ParameterChanged>18</ParameterChanged>
-						<ParameterChanged>22</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="19">
 						<EncPara MaxCount="#xffffffff">
 							<SoftEndMinControl Enable="true"/>
 							<SoftEndMaxControl Enable="true"/>
-							<ParameterChanged>11</ParameterChanged>
-							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -4133,7 +3987,7 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{63087C16-64A3-45B8-A3FE-105DDD7C0409}" Name="plc_vhs_01" PrjFilePath="plc_vhs_01\plc_vhs_01.plcproj" TmcFilePath="plc_vhs_01\plc_vhs_01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{F7DDF386-CAE8-81CA-EB8E-68B06A892047}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{1237EF2B-6ECD-3195-25C7-0562DF80BEAC}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
 					<Name>plc_vhs_01 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="8" AreaNo="4">
@@ -12329,42 +12183,68 @@ Bit 8 - 15 : reserved]]></Comment>
 		</OwnerA>
 		<OwnerA Name="TIPC^plc_vhs_01^plc_vhs_01 Instance">
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_02">
+				<Link VarA="PlcTask Inputs^Main.M1.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M1.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M1.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_03">
+				<Link VarA="PlcTask Inputs^Main.M2.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M2.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M2.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_04">
+				<Link VarA="PlcTask Inputs^Main.M3.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M3.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M3.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_05">
+				<Link VarA="PlcTask Inputs^Main.M4.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M4.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M4.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_06">
+				<Link VarA="PlcTask Inputs^Main.M5.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M5.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M5.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_07">
+				<Link VarA="PlcTask Inputs^Main.M6.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M6.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M6.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_08">
+				<Link VarA="PlcTask Inputs^Main.M7.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M7.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M7.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_09">
+				<Link VarA="PlcTask Inputs^Main.M8.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M8.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M8.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10">
+				<Link VarA="PlcTask Inputs^Main.M9.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M9.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M9.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_11">
+				<Link VarA="PlcTask Inputs^Main.M10.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M10.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M10.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_12">
+				<Link VarA="PlcTask Inputs^Main.M11.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M11.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M11.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_13">
+				<Link VarA="PlcTask Inputs^Main.M12.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M12.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M12.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_14">
+				<Link VarA="PlcTask Inputs^Main.M13.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true"/>
+				<Link VarA="PlcTask Inputs^Main.M13.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M13.nRawEncoderUINT" VarB="ENC Status compact^Counter value" AutoLink="true"/>
 			</OwnerB>
 			<OwnerB Name="TINC^NC-Task 1 SAF^Axes^M1 - CR">

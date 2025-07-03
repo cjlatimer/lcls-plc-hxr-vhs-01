@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{F7DDF386-CAE8-81CA-EB8E-68B06A892047}" GeneratedBy="TwinCAT XAE Plc">
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{1237EF2B-6ECD-3195-25C7-0562DF80BEAC}" GeneratedBy="TwinCAT XAE Plc">
   <DataTypes>
     <DataType>
       <Name Namespace="Tc2_System">T_AmsNetID</Name>
@@ -66722,10 +66722,10 @@ External Setpoint Generation:
       </SubItem>
       <Properties>
         <Property>
-          <Name>parameterlist</Name>
+          <Name>Tc2GvlVarNames</Name>
         </Property>
         <Property>
-          <Name>Tc2GvlVarNames</Name>
+          <Name>parameterlist</Name>
         </Property>
       </Properties>
     </DataType>
@@ -67686,7 +67686,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
                                  </Value>
@@ -67711,7 +67711,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_03]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
                                  </Value>
@@ -67736,7 +67736,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
                                  </Value>
@@ -67761,7 +67761,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
                                  </Value>
@@ -67786,7 +67786,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
                                  </Value>
@@ -67811,7 +67811,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_07]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
                                  </Value>
@@ -67836,7 +67836,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
                                  </Value>
@@ -67861,7 +67861,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
                                  </Value>
@@ -67886,7 +67886,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_10]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
                                  </Value>
@@ -67911,7 +67911,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
                                  </Value>
@@ -67936,7 +67936,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
                                  </Value>
@@ -67961,7 +67961,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
                                  </Value>
@@ -67986,7 +67986,7 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1
+            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
                                  </Value>
@@ -68011,9 +68011,8 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7062_00_15]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_15]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_15]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 1^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 2^Input
                                  </Value>
           </Property>
         </Properties>
@@ -68036,9 +68035,8 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7062_00_16]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_16]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_16]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 3^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 4^Input
                                  </Value>
           </Property>
         </Properties>
@@ -68078,7 +68076,7 @@ External Setpoint Generation:
     </DataType>
   </DataTypes>
   <Modules>
-    <Module GUID="{A1DCFD61-2C13-4209-9B3D-0B79773D1D53}" TcSmClass="TComPlcObjDef" TargetPlatform="TwinCAT OS (x64)">
+    <Module GUID="{A1DCFD61-2C13-4209-9B3D-0B79773D1D53}" TcSmClass="TComPlcObjDef" TargetPlatform="TwinCAT RT (x64)">
       <Name>plc_vhs_01</Name>
       <CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
       <Licenses/>
@@ -76448,7 +76446,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
                                  </Value>
@@ -76474,7 +76472,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_03]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
                                  </Value>
@@ -76500,7 +76498,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
                                  </Value>
@@ -76526,7 +76524,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
                                  </Value>
@@ -76552,7 +76550,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
                                  </Value>
@@ -76578,7 +76576,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_07]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
                                  </Value>
@@ -76604,7 +76602,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
                                  </Value>
@@ -76630,7 +76628,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
                                  </Value>
@@ -76656,7 +76654,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_10]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
                                  </Value>
@@ -76682,7 +76680,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
                                  </Value>
@@ -76708,7 +76706,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
                                  </Value>
@@ -76734,7 +76732,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
                                  </Value>
@@ -76760,7 +76758,7 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1
+                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
                                  </Value>
@@ -76786,9 +76784,8 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7062_00_15]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_15]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_15]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 1^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 2^Input
                                  </Value>
               </Property>
             </Properties>
@@ -76812,9 +76809,8 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7062_00_16]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_16]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_16]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 3^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 4^Input
                                  </Value>
               </Property>
             </Properties>
@@ -77003,7 +76999,7 @@ External Setpoint Generation:
         </Property>
         <Property>
           <Name>ChangeDate</Name>
-          <Value>2025-07-01T17:28:34</Value>
+          <Value>2025-07-03T12:00:53</Value>
         </Property>
         <Property>
           <Name>GeneratedCodeSize</Name>

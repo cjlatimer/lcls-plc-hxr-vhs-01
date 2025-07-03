@@ -8,7 +8,7 @@ VAR
     fb_cr1_move: FB_MotionStage;
     fb_cr2_move: FB_MotionStage;
     fb_cr3_move: FB_MotionStage;
-    f2b_cr4_move: FB_MotionStage;
+    fb_cr4_move: FB_MotionStage;
     fb_cr1_rot: FB_MotionStage;
     fb_cr2_rot: FB_MotionStage;
     fb_cr3_rot: FB_MotionStage;
@@ -23,7 +23,7 @@ VAR
 
     // Axis 1 - Common Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CR'}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
                                  '}
@@ -31,7 +31,7 @@ VAR
 
    // Axis 2 - CR1 Move
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM1'}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_03]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_03]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
                                  '}
@@ -39,7 +39,7 @@ VAR
 
 // Axis 3 - CR2 Move
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM2'}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
                                  '}
@@ -47,7 +47,7 @@ VAR
 
 // Axis 4 - CR3 Move
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM3'}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
                                  '}
@@ -55,7 +55,7 @@ VAR
 
     // Axis 5 - CR4 Move
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRM4'}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
                                  '}
@@ -63,7 +63,7 @@ VAR
 
 // Axis 6 - CR1 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR1 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_07]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_07]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
                                  '}
@@ -71,7 +71,7 @@ VAR
 
 // Axis 7 - CR2 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR2 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
                                  '}
@@ -79,7 +79,7 @@ VAR
 
 // Axis 8 - CR3 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR3 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
                                  '}
@@ -87,7 +87,7 @@ VAR
 
 // Axis 9 - CR4 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR4 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_10]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
                                  '}
@@ -95,7 +95,7 @@ VAR
 
 // Axis 10 - CRT1 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT1 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
                                  '}
@@ -103,7 +103,7 @@ VAR
 
 // Axis 11 - CRT2 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT2 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
                                  '}
@@ -111,7 +111,7 @@ VAR
 
 // Axis 12 - CRT3 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT3 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
                                  '}
@@ -119,7 +119,7 @@ VAR
 
 // Axis 13 - CRT4 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRT4 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1;
                               .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
                                  '}
@@ -127,17 +127,15 @@ VAR
 
 // Axis 14 - Parker X
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:PRX '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7062_00_15]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_15]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_15]^ENC Status compact^Counter value
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 1^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 2^Input
                                  '}
     M14: ST_MotionStage := (sName := 'HXR:VHS:MMS:PRX');
 
 // Axis 15 - Parker Y
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:PRY '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7062_00_16]^STM Status^Status^Digital input 1
-                              .bLimitBackwardEnable := TIIB[EL7062_00_16]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7062_00_16]^ENC Status compact^Counter value
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 3^Input;
+                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 4^Input
                                  '}
     M15: ST_MotionStage := (sName := 'HXR:VHS:MMS:PRY');
 
