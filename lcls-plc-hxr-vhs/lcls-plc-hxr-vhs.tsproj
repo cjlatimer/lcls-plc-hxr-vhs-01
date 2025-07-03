@@ -1577,16 +1577,24 @@ External Setpoint Generation:
 					<AxisPara>
 						<Dynamic AccelerationMaximum="25" DecelerationMaximum="25" Acceleration="25" Deceleration="25" Jerk="250"/>
 						<Velo RefSearch="0.05" RefSync="0.05" SlowManual="0.0125" FastManual="0.025" Maximum="0.25"/>
+						<TargetPosControl Range="0.01"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
 						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>16</ParameterChanged>
 						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
 						<ParameterChanged>6</ParameterChanged>
 						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1718,6 +1726,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -1740,13 +1749,24 @@ External Setpoint Generation:
 					<Name>M2 - CRM1</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="4.95" DecelerationMaximum="4.95" Acceleration="4.95" Deceleration="4.95" Jerk="49.5"/>
-						<Velo Maximum="0.0495"/>
+						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
+						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -1878,6 +1898,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -1900,13 +1921,24 @@ External Setpoint Generation:
 					<Name>M3 - CRM2</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="4.95" DecelerationMaximum="4.95" Acceleration="4.95" Deceleration="4.95" Jerk="49.5"/>
-						<Velo Maximum="0.0495"/>
+						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
+						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2038,6 +2070,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2060,13 +2093,24 @@ External Setpoint Generation:
 					<Name>M4 - CRM3</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="4.95" DecelerationMaximum="4.95" Acceleration="4.95" Deceleration="4.95" Jerk="49.5"/>
-						<Velo Maximum="0.0495"/>
+						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
+						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2198,6 +2242,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2220,13 +2265,24 @@ External Setpoint Generation:
 					<Name>M5 - CRM4</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="4.95" DecelerationMaximum="4.95" Acceleration="4.95" Deceleration="4.95" Jerk="49.5"/>
-						<Velo Maximum="0.0495"/>
+						<Velo RefSearch="0.0099" RefSync="0.0099" SlowManual="0.002475" FastManual="0.00495" Maximum="0.0495"/>
+						<TargetPosControl Range="0.00198"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2358,6 +2414,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2380,13 +2437,24 @@ External Setpoint Generation:
 					<Name>M6 - CRR1</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="20" DecelerationMaximum="20" Acceleration="20" Deceleration="20" Jerk="200"/>
-						<Velo Maximum="0.2"/>
+						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
+						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2518,6 +2586,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2540,13 +2609,24 @@ External Setpoint Generation:
 					<Name>M7 - CRR2</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="20" DecelerationMaximum="20" Acceleration="20" Deceleration="20" Jerk="200"/>
-						<Velo Maximum="0.2"/>
+						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
+						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2678,6 +2758,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2700,13 +2781,24 @@ External Setpoint Generation:
 					<Name>M8 - CRR3</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="20" DecelerationMaximum="20" Acceleration="20" Deceleration="20" Jerk="200"/>
-						<Velo Maximum="0.2"/>
+						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
+						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2838,6 +2930,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -2860,13 +2953,24 @@ External Setpoint Generation:
 					<Name>M9 - CRR4</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="20" DecelerationMaximum="20" Acceleration="20" Deceleration="20" Jerk="200"/>
-						<Velo Maximum="0.2"/>
+						<Velo RefSearch="0.04" RefSync="0.04" SlowManual="0.01" FastManual="0.02" Maximum="0.2"/>
+						<TargetPosControl Range="0.008"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -2998,6 +3102,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3020,13 +3125,24 @@ External Setpoint Generation:
 					<Name>M10 - CRT1</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="5" DecelerationMaximum="5" Acceleration="5" Deceleration="5" Jerk="50"/>
-						<Velo Maximum="0.05"/>
+						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
+						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3158,6 +3274,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3180,13 +3297,24 @@ External Setpoint Generation:
 					<Name>M11 - CRT2</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="5" DecelerationMaximum="5" Acceleration="5" Deceleration="5" Jerk="50"/>
-						<Velo Maximum="0.05"/>
+						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
+						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3318,6 +3446,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3340,13 +3469,24 @@ External Setpoint Generation:
 					<Name>M12 - CRT3</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="5" DecelerationMaximum="5" Acceleration="5" Deceleration="5" Jerk="50"/>
-						<Velo Maximum="0.05"/>
+						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
+						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3478,6 +3618,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3500,12 +3641,24 @@ External Setpoint Generation:
 					<Name>M13 - CRT4</Name>
 					<AxisPara>
 						<Dynamic AccelerationMaximum="5" DecelerationMaximum="5" Acceleration="5" Deceleration="5" Jerk="50"/>
-						<Velo Maximum="0.05"/>
+						<Velo RefSearch="0.01" RefSync="0.01" SlowManual="0.0025" FastManual="0.005" Maximum="0.05"/>
+						<TargetPosControl Range="0.002"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
 						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="19">
-						<EncPara MaxCount="#xffffffff"/>
+						<EncPara MaxCount="#xffffffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
+						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
 							<Var>
@@ -3620,6 +3773,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3641,11 +3795,30 @@ External Setpoint Generation:
 				<Axis Id="28" CreateSymbols="true" AxisType="1" GroupId="1">
 					<Name>M14 - PRX</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="6000" DecelerationMaximum="6000" Acceleration="6000" Deceleration="6000" Jerk="60000"/>
+						<Velo RefSearch="12" RefSync="12" SlowManual="3" FastManual="6" Maximum="60"/>
+						<TargetPosControl Range="0.2"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
+						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="4">
 						<EncPara MaxCount="#x0000ffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
 							<Inc RefSoftSyncMask="#x0000ffff"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
 						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
@@ -3705,7 +3878,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="24">
 						<DrvPara>
-							<Analog TorqueSetpointScale="10" ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="66" TorqueSetpointScale="10" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -3777,6 +3950,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
@@ -3798,10 +3972,30 @@ External Setpoint Generation:
 				<Axis Id="30" CreateSymbols="true" AxisType="1">
 					<Name>M15 - PRY</Name>
 					<AxisPara>
+						<Dynamic AccelerationMaximum="6000" DecelerationMaximum="6000" Acceleration="6000" Deceleration="6000" Jerk="60000"/>
+						<Velo RefSearch="12" RefSync="12" SlowManual="3" FastManual="6" Maximum="60"/>
+						<TargetPosControl Range="0.2"/>
 						<OtherSettings AllowMotionCmdToSlave="true"/>
+						<ParameterChanged>242</ParameterChanged>
+						<ParameterChanged>257</ParameterChanged>
+						<ParameterChanged>7</ParameterChanged>
+						<ParameterChanged>39</ParameterChanged>
+						<ParameterChanged>258</ParameterChanged>
+						<ParameterChanged>241</ParameterChanged>
+						<ParameterChanged>259</ParameterChanged>
+						<ParameterChanged>6</ParameterChanged>
+						<ParameterChanged>9</ParameterChanged>
+						<ParameterChanged>8</ParameterChanged>
+						<ParameterChanged>18</ParameterChanged>
+						<ParameterChanged>22</ParameterChanged>
 					</AxisPara>
 					<Encoder Name="Enc" EncType="19">
-						<EncPara MaxCount="#xffffffff"/>
+						<EncPara MaxCount="#xffffffff">
+							<SoftEndMinControl Enable="true"/>
+							<SoftEndMaxControl Enable="true"/>
+							<ParameterChanged>11</ParameterChanged>
+							<ParameterChanged>12</ParameterChanged>
+						</EncPara>
 						<Vars VarGrpType="1">
 							<Name>Inputs</Name>
 							<Var>
@@ -3860,7 +4054,7 @@ External Setpoint Generation:
 					</Encoder>
 					<Drive Name="Drive" DrvType="16">
 						<DrvPara MaxCount="#xffffffff" DriveControlDWord="#x00020100">
-							<Analog TorqueSetpointScale="10" ScaleFactorActTorque="0.1"/>
+							<Analog VeloReferenz="66" TorqueSetpointScale="10" ScaleFactorActTorque="0.1"/>
 							<TimeComp TaskDelayCycles="1"/>
 						</DrvPara>
 						<Vars VarGrpType="1">
@@ -3916,6 +4110,7 @@ External Setpoint Generation:
 					</Drive>
 					<Controller Name="Ctrl" CtrType="1">
 						<CtrPara PriorControlFactor="1">
+							<PosDiffControl Range="0.01"/>
 							<Observer BandWidth="20"/>
 						</CtrPara>
 					</Controller>
