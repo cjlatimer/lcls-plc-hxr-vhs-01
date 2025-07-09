@@ -87,8 +87,8 @@ VAR
 
 // Axis 9 - CR4 Rotation
     {attribute 'pytmc' := 'pv: HXR:VHS:MMS:CRR4 '}
-    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIIB[EL7031_00_10]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_10]^STM Status^Status^Digital input 2;
+    {attribute 'TcLinkTo' := '.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 2;
                               .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
                                  '}
     M9: ST_MotionStage := (sName := 'HXR:VHS:MMS:CRR4');
