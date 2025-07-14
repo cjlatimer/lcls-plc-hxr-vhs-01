@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{63087C16-64A3-45B8-A3FE-105DDD7C0409}" Name="plc_vhs_01" PrjFilePath="..\..\plc_vhs_01\plc_vhs_01.plcproj" TmcFilePath="..\..\plc_vhs_01\plc_vhs_01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{0111191D-EFF0-DB73-AF70-4AF4B572B048}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{7BBBE956-EA9D-6D27-224C-9F5A8D05DFDF}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
 			<Name>plc_vhs_01 Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="8" AreaNo="4">
@@ -1935,7 +1935,7 @@ External Setpoint Generation:
 						<OTCID>#x02010050</OTCID>
 					</ManualConfig>
 					<Priority>20</Priority>
-					<CycleTime>10000000</CycleTime>
+					<CycleTime>9000000</CycleTime>
 				</Context>
 			</Contexts>
 			<TaskPouOids>
