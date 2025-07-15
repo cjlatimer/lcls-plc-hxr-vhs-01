@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{63087C16-64A3-45B8-A3FE-105DDD7C0409}" Name="plc_vhs_01" PrjFilePath="..\..\plc_vhs_01\plc_vhs_01.plcproj" TmcFilePath="..\..\plc_vhs_01\plc_vhs_01.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{7BBBE956-EA9D-6D27-224C-9F5A8D05DFDF}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{2FBBE439-B89B-F756-0FCB-2259121F351E}" TmcPath="plc_vhs_01\plc_vhs_01.tmc">
 			<Name>plc_vhs_01 Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="8" AreaNo="4">
@@ -1945,12 +1945,6 @@ External Setpoint Generation:
 	</Project>
 	<Mappings>
 		<OwnerA Name="plc_vhs_01 Instance">
-			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL1084_00_16">
-				<Link VarA="PlcTask Inputs^Main.M14.bLimitBackwardEnable" VarB="Channel 2^Input" AutoLink="true" Size="1"/>
-				<Link VarA="PlcTask Inputs^Main.M14.bLimitForwardEnable" VarB="Channel 1^Input" AutoLink="true" Size="1"/>
-				<Link VarA="PlcTask Inputs^Main.M15.bLimitBackwardEnable" VarB="Channel 4^Input" AutoLink="true" Size="1"/>
-				<Link VarA="PlcTask Inputs^Main.M15.bLimitForwardEnable" VarB="Channel 3^Input" AutoLink="true" Size="1"/>
-			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_02">
 				<Link VarA="PlcTask Inputs^Main.M1.bLimitBackwardEnable" VarB="STM Status^Status^Digital input 2" AutoLink="true" Size="1"/>
 				<Link VarA="PlcTask Inputs^Main.M1.bLimitForwardEnable" VarB="STM Status^Status^Digital input 1" AutoLink="true" Size="1"/>
