@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{2FBBE439-B89B-F756-0FCB-2259121F351E}" GeneratedBy="TwinCAT XAE Plc">
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{CDE4DC43-B248-45D0-4911-0BBE213F672A}" GeneratedBy="TwinCAT XAE Plc">
   <DataTypes>
     <DataType>
       <Name Namespace="Tc2_System">T_AmsNetID</Name>
@@ -3926,32 +3926,32 @@
         <Name>bBusy</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>159837016</GetCodeOffs>
+        <GetCodeOffs>159840280</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>bError</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>159837088</GetCodeOffs>
+        <GetCodeOffs>159840352</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>hrErrorCode</Name>
         <Type GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159837104</GetCodeOffs>
+        <GetCodeOffs>159840368</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nStringSize</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159837064</GetCodeOffs>
+        <GetCodeOffs>159840328</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sResult</Name>
         <Type>STRING(255)</Type>
         <Comment> result [UTF-8 STRING]</Comment>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>159837096</GetCodeOffs>
+        <GetCodeOffs>159840360</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -4098,7 +4098,7 @@
         </Property>
         <Property>
           <Name>VTableOffset</Name>
-          <Value>159819432</Value>
+          <Value>159822696</Value>
         </Property>
         <Property>
           <Name>VfInitVTableIndex</Name>
@@ -5400,15 +5400,15 @@
         <Name>nSourceId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159836680</GetCodeOffs>
-        <SetCodeOffs>159836832</SetCodeOffs>
+        <GetCodeOffs>159839944</GetCodeOffs>
+        <SetCodeOffs>159840096</SetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sSourceName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>159836808</GetCodeOffs>
-        <SetCodeOffs>159836768</SetCodeOffs>
+        <GetCodeOffs>159840072</GetCodeOffs>
+        <SetCodeOffs>159840032</SetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5844,15 +5844,15 @@
         <Name>nId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159836904</GetCodeOffs>
-        <SetCodeOffs>159836952</SetCodeOffs>
+        <GetCodeOffs>159840168</GetCodeOffs>
+        <SetCodeOffs>159840216</SetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>159836976</GetCodeOffs>
-        <SetCodeOffs>159837000</SetCodeOffs>
+        <GetCodeOffs>159840240</GetCodeOffs>
+        <SetCodeOffs>159840264</SetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -6132,31 +6132,31 @@
         <Name>eSeverity</Name>
         <Type GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</Type>
         <BitSize>16</BitSize>
-        <GetCodeOffs>159837200</GetCodeOffs>
+        <GetCodeOffs>159840464</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>ipSourceInfo</Name>
         <Type Namespace="lcls_twincat_motion.LCLS_General.Tc3_EventLogger">I_TcSourceInfo</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>159837160</GetCodeOffs>
+        <GetCodeOffs>159840424</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nEventId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159837336</GetCodeOffs>
+        <GetCodeOffs>159840600</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nUniqueId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159837344</GetCodeOffs>
+        <GetCodeOffs>159840608</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sEventClassName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>159837256</GetCodeOffs>
+        <GetCodeOffs>159840520</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -6168,7 +6168,7 @@
         <Name>sEventText</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>159837352</GetCodeOffs>
+        <GetCodeOffs>159840616</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -6766,7 +6766,7 @@
         <Name>nTimeSent</Name>
         <Type>ULINT</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>159837400</GetCodeOffs>
+        <GetCodeOffs>159840664</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcDisplayTypeGUID</Name>
@@ -12999,6 +12999,11 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Comment> serial number (or BTN) of Beckhoff IPC, STRING, read-only (MDP device area)</Comment>
       </EnumInfo>
       <EnumInfo>
+        <Text>IPCBeckhoffIdentificationCode</Text>
+        <Enum>12384903168524289</Enum>
+        <Comment> BIC of Beckhoff IPC, STRING, read-only (MDP device area)</Comment>
+      </EnumInfo>
+      <EnumInfo>
         <Text>CPU_Name</Text>
         <Enum>12384948368441347</Enum>
         <Comment> CPU name, STRING, read-only</Comment>
@@ -13941,6 +13946,21 @@ contributing fast faults, unless the FFO is currently vetoed.
       </Properties>
     </DataType>
     <DataType>
+      <Name>USINT (USINT#1..255)</Name>
+      <BitSize>8</BitSize>
+      <BaseType>USINT</BaseType>
+      <Properties>
+        <Property>
+          <Name>LowerBorder</Name>
+          <Value>1</Value>
+        </Property>
+        <Property>
+          <Name>UpperBorder</Name>
+          <Value>255</Value>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
       <Name Namespace="lcls_twincat_motion.Tc3_IPCDiag">E_IPCDiag_Datatype</Name>
       <Comment> parameter datatype 1..15</Comment>
       <BitSize>8</BitSize>
@@ -14358,14 +14378,14 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type>BOOL</Type>
         <Comment> is TRUE if a buffer is available.</Comment>
         <BitSize>8</BitSize>
-        <GetCodeOffs>159842144</GetCodeOffs>
+        <GetCodeOffs>159845408</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nBufferSize</Name>
         <Type>UDINT</Type>
         <Comment> current buffer size in bytes.</Comment>
         <BitSize>32</BitSize>
-        <GetCodeOffs>159842048</GetCodeOffs>
+        <GetCodeOffs>159845312</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name RpcEnable="plc" VTableIndex="3">__getnBufferSize</Name>
@@ -15461,7 +15481,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>64</BitSize>
-        <GetCodeOffs>159842296</GetCodeOffs>
+        <GetCodeOffs>159845560</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>GetParameterByIdx</Name>
@@ -15604,7 +15624,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Parameter>
         <Local>
           <Name>nParameterIdx</Name>
-          <Type>USINT (1..255)</Type>
+          <Type>USINT (USINT#1..255)</Type>
           <BitSize>8</BitSize>
         </Local>
         <Local>
@@ -16177,7 +16197,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>64</BitSize>
-        <GetCodeOffs>159842408</GetCodeOffs>
+        <GetCodeOffs>159845672</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>Clear</Name>
@@ -17412,7 +17432,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </Properties>
     </DataType>
     <DataType>
-      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Name>
+      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Name>
       <BitSize>16</BitSize>
       <BaseType>UINT</BaseType>
       <Properties>
@@ -17427,7 +17447,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </Properties>
     </DataType>
     <DataType>
-      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
+      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
       <BitSize>16</BitSize>
       <BaseType>UINT</BaseType>
       <Properties>
@@ -17455,7 +17475,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>StoringTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <Comment> Misc variables</Comment>
         <BitSize>16</BitSize>
         <BitOffs>629376256</BitOffs>
@@ -17480,7 +17500,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>NumberOfTestsToAnalyse</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
         <BitSize>16</BitSize>
         <BitOffs>629376464</BitOffs>
       </SubItem>
@@ -17532,7 +17552,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>PrintingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>192</BitOffs>
       </SubItem>
@@ -17570,12 +17590,12 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>TestsInTestSuiteCounter</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
           <Name>MaxNumberOfTestsToPrint</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -18474,7 +18494,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>WritingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>530752</BitOffs>
       </SubItem>
@@ -18909,6 +18929,21 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Property>
           <Name>PouType</Name>
           <Value>FunctionBlock</Value>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
+      <Name>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
+      <BitSize>16</BitSize>
+      <BaseType>UINT</BaseType>
+      <Properties>
+        <Property>
+          <Name>LowerBorder</Name>
+          <Value>1</Value>
+        </Property>
+        <Property>
+          <Name>UpperBorder</Name>
+          <Value>100</Value>
         </Property>
       </Properties>
     </DataType>
@@ -21117,7 +21152,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -22669,7 +22704,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -22822,7 +22857,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -23480,7 +23515,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -23961,7 +23996,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -24337,7 +24372,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -24721,21 +24756,6 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Property>
         <Property>
           <Name>reflection</Name>
-        </Property>
-      </Properties>
-    </DataType>
-    <DataType>
-      <Name>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Name>
-      <BitSize>16</BitSize>
-      <BaseType>UINT</BaseType>
-      <Properties>
-        <Property>
-          <Name>LowerBorder</Name>
-          <Value>1</Value>
-        </Property>
-        <Property>
-          <Name>UpperBorder</Name>
-          <Value>100</Value>
         </Property>
       </Properties>
     </DataType>
@@ -27812,7 +27832,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>StoringTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <Comment> Misc variables </Comment>
         <BitSize>16</BitSize>
         <BitOffs>621296192</BitOffs>
@@ -27837,7 +27857,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>NumberOfTestsToAnalyse</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>621296400</BitOffs>
       </SubItem>
@@ -27889,7 +27909,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>PrintingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>192</BitOffs>
       </SubItem>
@@ -27927,12 +27947,12 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>TestsInTestSuiteCounter</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
           <Name>MaxNumberOfTestsToPrint</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestsForEachTestSuite)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -28796,7 +28816,7 @@ contributing fast faults, unless the FFO is currently vetoed.
       </SubItem>
       <SubItem>
         <Name>WritingTestSuiteResultNumber</Name>
-        <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+        <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
         <BitSize>16</BitSize>
         <BitOffs>530752</BitOffs>
       </SubItem>
@@ -30836,7 +30856,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
         <Local>
@@ -32441,7 +32461,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -33066,7 +33086,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -33544,7 +33564,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -33928,7 +33948,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         </Local>
         <Local>
           <Name>NumberOfTestsToAnalyse</Name>
-          <Type>UINT (1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
+          <Type>UINT (UINT#1..GVL_Param_TcUnit.MaxNumberOfTestSuites)</Type>
           <BitSize>16</BitSize>
         </Local>
       </Method>
@@ -50932,6 +50952,62 @@ contributing fast faults, unless the FFO is currently vetoed.
       </Properties>
     </DataType>
     <DataType>
+      <Name Namespace="lcls_twincat_motion">E_StageEnableMode</Name>
+      <BitSize>16</BitSize>
+      <BaseType>INT</BaseType>
+      <EnumInfo>
+        <Text>ALWAYS</Text>
+        <Enum>0</Enum>
+        <Comment> Always set bEnable to TRUE</Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text>NEVER</Text>
+        <Enum>1</Enum>
+        <Comment> Only change bEnable on errors</Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text>DURING_MOTION</Text>
+        <Enum>2</Enum>
+        <Comment> Enable before motion, disable after motion</Comment>
+      </EnumInfo>
+      <Properties>
+        <Property>
+          <Name>qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>strict</Name>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
+      <Name Namespace="lcls_twincat_motion">E_StageBrakeMode</Name>
+      <BitSize>16</BitSize>
+      <BaseType>INT</BaseType>
+      <EnumInfo>
+        <Text>IF_ENABLED</Text>
+        <Enum>0</Enum>
+        <Comment> Disengage brake when the motor is enabled</Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text>IF_MOVING</Text>
+        <Enum>1</Enum>
+        <Comment> Disengage brake when the motor is moving</Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text>NO_BRAKE</Text>
+        <Enum>2</Enum>
+        <Comment> Do not change the brake state in FB_MotionStage</Comment>
+      </EnumInfo>
+      <Properties>
+        <Property>
+          <Name>qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>strict</Name>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
       <Name GUID="{875D2B22-B7EB-497E-B933-0C004593CCF3}" Namespace="MC" TcBaseType="true" HideType="true" IecDeclaration="DWORD;">PLCTONC_AXIS_REF_CTRL</Name>
       <BitSize>32</BitSize>
       <SubItem>
@@ -53127,62 +53203,6 @@ External Setpoint Generation:
           </Property>
         </Properties>
       </SubItem>
-    </DataType>
-    <DataType>
-      <Name Namespace="lcls_twincat_motion">E_StageEnableMode</Name>
-      <BitSize>16</BitSize>
-      <BaseType>INT</BaseType>
-      <EnumInfo>
-        <Text>ALWAYS</Text>
-        <Enum>0</Enum>
-        <Comment> Always set bEnable to TRUE</Comment>
-      </EnumInfo>
-      <EnumInfo>
-        <Text>NEVER</Text>
-        <Enum>1</Enum>
-        <Comment> Only change bEnable on errors</Comment>
-      </EnumInfo>
-      <EnumInfo>
-        <Text>DURING_MOTION</Text>
-        <Enum>2</Enum>
-        <Comment> Enable before motion, disable after motion</Comment>
-      </EnumInfo>
-      <Properties>
-        <Property>
-          <Name>qualified_only</Name>
-        </Property>
-        <Property>
-          <Name>strict</Name>
-        </Property>
-      </Properties>
-    </DataType>
-    <DataType>
-      <Name Namespace="lcls_twincat_motion">E_StageBrakeMode</Name>
-      <BitSize>16</BitSize>
-      <BaseType>INT</BaseType>
-      <EnumInfo>
-        <Text>IF_ENABLED</Text>
-        <Enum>0</Enum>
-        <Comment> Disengage brake when the motor is enabled</Comment>
-      </EnumInfo>
-      <EnumInfo>
-        <Text>IF_MOVING</Text>
-        <Enum>1</Enum>
-        <Comment> Disengage brake when the motor is moving</Comment>
-      </EnumInfo>
-      <EnumInfo>
-        <Text>NO_BRAKE</Text>
-        <Enum>2</Enum>
-        <Comment> Do not change the brake state in FB_MotionStage</Comment>
-      </EnumInfo>
-      <Properties>
-        <Property>
-          <Name>qualified_only</Name>
-        </Property>
-        <Property>
-          <Name>strict</Name>
-        </Property>
-      </Properties>
     </DataType>
     <DataType>
       <Name Namespace="lcls_twincat_motion">E_EpicsHomeCmd</Name>
@@ -67577,6 +67597,28 @@ External Setpoint Generation:
         </Default>
       </SubItem>
       <SubItem>
+        <Name Static="true">bPowerSelf</Name>
+        <Type>BOOL</Type>
+        <Comment>  INT; //m3</Comment>
+        <BitSize>8</BitSize>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">bHardwareEnable</Name>
+        <Type>BOOL</Type>
+        <BitSize>8</BitSize>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">nEnableMode</Name>
+        <Type Namespace="lcls_twincat_motion">E_StageEnableMode</Type>
+        <BitSize>16</BitSize>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">nBrakeMode</Name>
+        <Type Namespace="lcls_twincat_motion">E_StageBrakeMode</Type>
+        <Comment> INT; //M4</Comment>
+        <BitSize>16</BitSize>
+      </SubItem>
+      <SubItem>
         <Name Static="true">fb_com_rot</Name>
         <Type Namespace="lcls_twincat_motion">FB_MotionStage</Type>
         <Comment> Von Hamos</Comment>
@@ -67671,9 +67713,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^STM Status^Status^Digital input 1:
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^STM Status^Status^Digital input 1:
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67696,9 +67738,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_06]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_06]^STM Status^Status^Digital input 2;
-                            //  .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 3;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 4;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67706,7 +67748,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M3</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 3 - CR2 Move</Comment>
+        <Comment> Axis 3 - CR2 MOVE</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67721,9 +67763,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 5;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 6;
+                              .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67731,7 +67773,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M4</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 4 - CR3 Move</Comment>
+        <Comment> Axis 4 - CR3 MOVE</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67746,9 +67788,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 7;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 8;
+                                   .nRawEncoderUINT :=  TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67771,9 +67813,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 9;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 10;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67796,9 +67838,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_06]^STM Status^Status^Digital input 3;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_06]^STM Status^Status^Digital input 4;
-                          //    .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 11;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 12;
+						      	.nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67821,9 +67863,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 13;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 14;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 9 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67846,9 +67888,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 15;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 16;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 10 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67871,9 +67913,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 2;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 11 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67881,7 +67923,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M10</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 10 - CRT1 Rotation</Comment>
+        <Comment> Axis 10 - CRT1 Tilt</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67896,9 +67938,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 3;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 4;   
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 13 (EL7031)^ENC Status compact^Counter value                  
                                  </Value>
           </Property>
         </Properties>
@@ -67906,7 +67948,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M11</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 11 - CRT2 Rotation</Comment>
+        <Comment> Axis 11 - CRT2 Tilt</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67921,9 +67963,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 5;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 6;
+            //                  .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 14 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67931,7 +67973,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M12</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 12 - CRT3 Rotation</Comment>
+        <Comment> Axis 12 - CRT3 Tilt</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67946,9 +67988,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 7;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 8;
+              //                .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 15 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67956,7 +67998,7 @@ External Setpoint Generation:
       <SubItem>
         <Name Static="true">M13</Name>
         <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
-        <Comment> Axis 13 - CRT4 Rotation</Comment>
+        <Comment> Axis 13 - CRT4 Tilt</Comment>
         <BitSize>25984</BitSize>
         <Default>
           <SubItem>
@@ -67971,9 +68013,9 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 9;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 10;
+                  //            .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 16 (EL7031)^ENC Status compact^Counter value
                                  </Value>
           </Property>
         </Properties>
@@ -67996,8 +68038,8 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 1^Input;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 2^Input
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 1^Input 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 1^Input 2							
                                  </Value>
           </Property>
         </Properties>
@@ -68020,11 +68062,27 @@ External Setpoint Generation:
           </Property>
           <Property>
             <Name>TcLinkTo</Name>
-            <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 3^Input;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 4^Input
+            <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 2^Input 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 2^Input 2
                                  </Value>
           </Property>
         </Properties>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">fVelocity</Name>
+        <Type>LREAL</Type>
+        <BitSize>64</BitSize>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">fHomePosition</Name>
+        <Type>INT</Type>
+        <BitSize>16</BitSize>
+      </SubItem>
+      <SubItem>
+        <Name Static="true">lcls_twincat_motion</Name>
+        <Type Namespace="lcls_twincat_motion">ST_MotionStage</Type>
+        <Comment>M7</Comment>
+        <BitSize>25984</BitSize>
       </SubItem>
     </DataType>
     <DataType>
@@ -68092,7 +68150,7 @@ External Setpoint Generation:
           <AreaNo AreaType="InputDst" CreateSymbols="true">0</AreaNo>
           <Name>PlcTask Inputs</Name>
           <ContextId>0</ContextId>
-          <ByteSize>192806912</ByteSize>
+          <ByteSize>192741376</ByteSize>
           <Symbol>
             <Name>Main.fb_com_rot.fbDriveVirtual.MasterAxis.NcToPlc</Name>
             <BitSize>2048</BitSize>
@@ -69293,12 +69351,86 @@ External Setpoint Generation:
             <BaseType>DINT</BaseType>
             <BitOffs>1278491744</BitOffs>
           </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.Axis.NcToPlc</Name>
+            <BitSize>2048</BitSize>
+            <BaseType GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</BaseType>
+            <BitOffs>1278509696</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.bLimitForwardEnable</Name>
+            <Comment> NC Forward Limit Switch: TRUE if ok to move</Comment>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <BitOffs>1278517696</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.bLimitBackwardEnable</Name>
+            <Comment> NC Backward Limit Switch: TRUE if ok to move</Comment>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <BitOffs>1278517704</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.bHome</Name>
+            <Comment> NO Home Switch: TRUE if at home</Comment>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <BitOffs>1278517712</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.bHardwareEnable</Name>
+            <Comment> NC STO Input: TRUE if ok to move</Comment>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Properties>
+              <Property>
+                <Name>pytmc</Name>
+                <Value>
+        pv: PLC:bHardwareEnable
+        io: i
+        field: ZNAM FALSE
+        field: ONAM TRUE
+        field: DESC TRUE if STO not hit
+    </Value>
+              </Property>
+            </Properties>
+            <BitOffs>1278517728</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.nRawEncoderULINT</Name>
+            <Comment> Raw encoder IO for ULINT (Biss-C)</Comment>
+            <BitSize>64</BitSize>
+            <BaseType>ULINT</BaseType>
+            <BitOffs>1278517760</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.nRawEncoderUINT</Name>
+            <Comment> Raw encoder IO for UINT (Relative Encoders)</Comment>
+            <BitSize>16</BitSize>
+            <BaseType>UINT</BaseType>
+            <BitOffs>1278517824</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.nRawEncoderINT</Name>
+            <Comment> Raw encoder IO for INT (LVDT)</Comment>
+            <BitSize>16</BitSize>
+            <BaseType>INT</BaseType>
+            <BitOffs>1278517840</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.nRawEncoderDINT</Name>
+            <Comment> Raw encoder IO for INT (EL5072 LVDT)</Comment>
+            <BitSize>32</BitSize>
+            <BaseType>DINT</BaseType>
+            <BitOffs>1278517856</BitOffs>
+          </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="OutputSrc" CreateSymbols="true">1</AreaNo>
           <Name>PlcTask Outputs</Name>
           <ContextId>0</ContextId>
-          <ByteSize>192806912</ByteSize>
+          <ByteSize>192741376</ByteSize>
           <Symbol>
             <Name>Main.fb_com_rot.fbDriveVirtual.MasterAxis.PlcToNc</Name>
             <BitSize>1024</BitSize>
@@ -69584,12 +69716,25 @@ External Setpoint Generation:
             <BaseType>BOOL</BaseType>
             <BitOffs>1278491608</BitOffs>
           </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.Axis.PlcToNc</Name>
+            <BitSize>1024</BitSize>
+            <BaseType GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</BaseType>
+            <BitOffs>1278508672</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion.bBrakeRelease</Name>
+            <Comment> NC Brake Output: TRUE to release brake</Comment>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <BitOffs>1278517720</BitOffs>
+          </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="Internal" CreateSymbols="true">3</AreaNo>
           <Name>PlcTask Internal</Name>
           <ContextId>0</ContextId>
-          <ByteSize>192806912</ByteSize>
+          <ByteSize>192741376</ByteSize>
           <Symbol>
             <Name>MOTION_GVL.fbPmpsFileReader</Name>
             <Comment> Global file reader instance, used in fbStandardPMPSDB</Comment>
@@ -70046,7 +70191,7 @@ External Setpoint Generation:
               </SubItem>
               <SubItem>
                 <Name>.iBuild</Name>
-                <Value>1</Value>
+                <Value>2</Value>
               </SubItem>
               <SubItem>
                 <Name>.iRevision</Name>
@@ -70058,7 +70203,7 @@ External Setpoint Generation:
               </SubItem>
               <SubItem>
                 <Name>.sVersion</Name>
-                <String>3.6.1.0</String>
+                <String>3.6.2.0</String>
               </SubItem>
             </Default>
             <Properties>
@@ -75777,7 +75922,7 @@ External Setpoint Generation:
               </SubItem>
               <SubItem>
                 <Name>.iBuild</Name>
-                <Value>1</Value>
+                <Value>2</Value>
               </SubItem>
               <SubItem>
                 <Name>.iRevision</Name>
@@ -75789,7 +75934,7 @@ External Setpoint Generation:
               </SubItem>
               <SubItem>
                 <Name>.sVersion</Name>
-                <String>1.2.1.0</String>
+                <String>1.2.2.0</String>
               </SubItem>
             </Default>
             <Properties>
@@ -76294,32 +76439,30 @@ External Setpoint Generation:
             <BitOffs>1273159744</BitOffs>
           </Symbol>
           <Symbol>
-            <Name>TwinCAT_PreventOnlineChangeGvl.WriteLineIDs</Name>
+            <Name>Main.bPowerSelf</Name>
+            <Comment>  INT; //m3</Comment>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <Default>
-              <Bool>false</Bool>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
             <BitOffs>1273159760</BitOffs>
           </Symbol>
           <Symbol>
-            <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerActive</Name>
+            <Name>Main.bHardwareEnable</Name>
             <BitSize>8</BitSize>
             <BaseType>BOOL</BaseType>
-            <Default>
-              <Bool>false</Bool>
-            </Default>
-            <Properties>
-              <Property>
-                <Name>TcVarGlobal</Name>
-              </Property>
-            </Properties>
             <BitOffs>1273159768</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.nEnableMode</Name>
+            <BitSize>16</BitSize>
+            <BaseType Namespace="lcls_twincat_motion">E_StageEnableMode</BaseType>
+            <BitOffs>1273159776</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.nBrakeMode</Name>
+            <Comment> INT; //M4</Comment>
+            <BitSize>16</BitSize>
+            <BaseType Namespace="lcls_twincat_motion">E_StageBrakeMode</BaseType>
+            <BitOffs>1273159792</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Main.fb_com_rot</Name>
@@ -76431,9 +76574,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_02]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_02]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_02]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^STM Status^Status^Digital input 1:
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^STM Status^Status^Digital input 1:
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76457,9 +76600,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_06]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_06]^STM Status^Status^Digital input 2;
-                            //  .nRawEncoderUINT := TIIB[EL7031_00_03]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 3;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 4;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76467,7 +76610,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M3</Name>
-            <Comment> Axis 3 - CR2 Move</Comment>
+            <Comment> Axis 3 - CR2 MOVE</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76483,9 +76626,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_04]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_04]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_04]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 5;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 6;
+                              .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76493,7 +76636,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M4</Name>
-            <Comment> Axis 4 - CR3 Move</Comment>
+            <Comment> Axis 4 - CR3 MOVE</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76509,9 +76652,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_05]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_05]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_05]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 7;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 8;
+                                   .nRawEncoderUINT :=  TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76535,9 +76678,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_06]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_06]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_06]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 9;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 10;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76561,9 +76704,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_06]^STM Status^Status^Digital input 3;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_06]^STM Status^Status^Digital input 4;
-                          //    .nRawEncoderUINT := TIIB[EL7031_00_07]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 11;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 12;
+						      	.nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76587,9 +76730,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_08]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_08]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_08]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 13;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 14;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 9 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76613,9 +76756,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_09]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_09]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_09]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 15;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1429)^DIP Inputs^Input Channel 16;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 10 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76639,9 +76782,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^EL7031_00_10^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_10]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 2;
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 11 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76649,7 +76792,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M10</Name>
-            <Comment> Axis 10 - CRT1 Rotation</Comment>
+            <Comment> Axis 10 - CRT1 Tilt</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76665,9 +76808,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_11]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_11]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_11]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 3;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 4;   
+                                   .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 13 (EL7031)^ENC Status compact^Counter value                  
                                  </Value>
               </Property>
             </Properties>
@@ -76675,7 +76818,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M11</Name>
-            <Comment> Axis 11 - CRT2 Rotation</Comment>
+            <Comment> Axis 11 - CRT2 Tilt</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76691,9 +76834,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_12]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_12]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_12]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 5;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 6;
+            //                  .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 14 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76701,7 +76844,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M12</Name>
-            <Comment> Axis 12 - CRT3 Rotation</Comment>
+            <Comment> Axis 12 - CRT3 Tilt</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76717,9 +76860,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_13]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_13]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_13]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 7;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 8;
+              //                .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 15 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76727,7 +76870,7 @@ External Setpoint Generation:
           </Symbol>
           <Symbol>
             <Name>Main.M13</Name>
-            <Comment> Axis 13 - CRT4 Rotation</Comment>
+            <Comment> Axis 13 - CRT4 Tilt</Comment>
             <BitSize>25984</BitSize>
             <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
             <Default>
@@ -76743,9 +76886,9 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL7031_00_14]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable := TIIB[EL7031_00_14]^STM Status^Status^Digital input 2;
-                              .nRawEncoderUINT := TIIB[EL7031_00_14]^ENC Status compact^Counter value
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 9;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 17 (EL1429)^DIP Inputs^Input Channel 10;
+                  //            .nRawEncoderUINT := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 16 (EL7031)^ENC Status compact^Counter value
                                  </Value>
               </Property>
             </Properties>
@@ -76769,8 +76912,8 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 1^Input;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 2^Input
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 1^Input 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 1^Input 2							
                                  </Value>
               </Property>
             </Properties>
@@ -76794,12 +76937,59 @@ External Setpoint Generation:
               </Property>
               <Property>
                 <Name>TcLinkTo</Name>
-                <Value>.bLimitForwardEnable  := TIIB[EL1084_00_16]^Channel 3^Input;
-                              .bLimitBackwardEnable := TIIB[EL1084_00_16]^Channel 4^Input
+                <Value>.bLimitForwardEnable  := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 2^Input 1;
+                              .bLimitBackwardEnable := TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 19 (EL7062)^DI Inputs Channel 2^Input 2
                                  </Value>
               </Property>
             </Properties>
             <BitOffs>1278482496</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.fVelocity</Name>
+            <BitSize>64</BitSize>
+            <BaseType>LREAL</BaseType>
+            <BitOffs>1278508480</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.fHomePosition</Name>
+            <BitSize>16</BitSize>
+            <BaseType>INT</BaseType>
+            <BitOffs>1278508544</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>TwinCAT_PreventOnlineChangeGvl.WriteLineIDs</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Default>
+              <Bool>false</Bool>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1278508560</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerActive</Name>
+            <BitSize>8</BitSize>
+            <BaseType>BOOL</BaseType>
+            <Default>
+              <Bool>false</Bool>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>TcVarGlobal</Name>
+              </Property>
+            </Properties>
+            <BitOffs>1278508568</BitOffs>
+          </Symbol>
+          <Symbol>
+            <Name>Main.lcls_twincat_motion</Name>
+            <Comment>M7</Comment>
+            <BitSize>25984</BitSize>
+            <BaseType Namespace="lcls_twincat_motion">ST_MotionStage</BaseType>
+            <BitOffs>1278508608</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_PreventOnlineChangeGvl.PlcProfilerConfigChecksum</Name>
@@ -76813,7 +77003,7 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278509504</BitOffs>
+            <BitOffs>1278535616</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._AppInfo</Name>
@@ -76827,7 +77017,7 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278510336</BitOffs>
+            <BitOffs>1278536448</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskInfo</Name>
@@ -76845,7 +77035,7 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278512384</BitOffs>
+            <BitOffs>1278538496</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</Name>
@@ -76859,7 +77049,7 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278513408</BitOffs>
+            <BitOffs>1278539520</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_PlcTask</Name>
@@ -76873,7 +77063,7 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278513440</BitOffs>
+            <BitOffs>1278539552</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__PlcTask</Name>
@@ -76894,14 +77084,14 @@ External Setpoint Generation:
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>1278513472</BitOffs>
+            <BitOffs>1278539584</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="RetainSrc" CreateSymbols="true">4</AreaNo>
           <Name>PlcTask Retains</Name>
           <ContextId>0</ContextId>
-          <ByteSize>192806912</ByteSize>
+          <ByteSize>192741376</ByteSize>
           <Symbol>
             <Name>PMPS_GVL.SuccessfulPreemption</Name>
             <Comment> Any time BPTM applies a new BP request which is confirmed</Comment>
@@ -76984,7 +77174,7 @@ External Setpoint Generation:
         </Property>
         <Property>
           <Name>ChangeDate</Name>
-          <Value>2025-07-15T15:31:57</Value>
+          <Value>2025-08-14T16:21:19</Value>
         </Property>
         <Property>
           <Name>GeneratedCodeSize</Name>
@@ -76992,7 +77182,7 @@ External Setpoint Generation:
         </Property>
         <Property>
           <Name>GlobalDataSize</Name>
-          <Value>159457280</Value>
+          <Value>159461376</Value>
         </Property>
         <Property>
           <Name>UTF8EncodedStrings</Name>
